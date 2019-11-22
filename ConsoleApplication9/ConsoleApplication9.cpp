@@ -18,7 +18,7 @@ int main()
 	scanf_s("%lf", &y);
 	printf("Enter Z:");
 	scanf_s("%lf", &z);
-	if ((y > -1 && y <= 3) || (pow(x, 4) != 0) || (z >= 0 && z <= 1)) {
+	if ((y > 0 && y <= 3) || (pow(x, 4) != 0) || (z >= 0 && z <= 1)) {
 		b = (1 + (cos(y - 2)) / pow(x, 4) / 2 + pow(sin(z), 2) - cos(13 * 180 / 3.14));
 	}
 	else { cout << "Error"; 
